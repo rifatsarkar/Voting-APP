@@ -1,0 +1,66 @@
+body {
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 60%;
+  padding: 10px 20px;
+  margin: auto;
+}
+.form form input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.form label {
+  color: chocolate;
+}
+
+
+.form button {
+  color: rgb(75, 145, 6);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px 7px;
+  background-color:  beige;
+  cursor: pointer;
+}
+
+
+.form button:hover {
+  background-color: chartreuse;
+}
+
+
+.itemBox {
+  width: 60%;
+  margin: auto;
+}
+
+
+.itemBox h1 {
+  text-align: center;
+}
+
+.allItem {
+  width: 100%;
+}
+.item {
+  color: blue; 
+  overflow: hidden;
+  width: 42%;
+  float: left;
+  text-align: center;
+  margin: 2%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+.item button {
+  border: 3px solid yellowgreen;
+  background-color: white;
+  color: yellowgreen;
+}
